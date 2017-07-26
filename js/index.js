@@ -5,7 +5,7 @@ document.body.style.font;
     let a = Number(prompt('Enter a:'));
     let b = Number(prompt('Enter b:'));
     let c = Number(prompt('Enter c:'));
-    function Disqrim(a, b, c){
+    function disqrim(a, b, c){
         let discr = Math.pow(b, 2) - 4 * a * c;
         return discr;
     }
@@ -13,7 +13,7 @@ document.body.style.font;
      document.write(QuadraticEquation(a, b, c));
     
     function QuadraticEquation(a, b, c){
-        let disq = Disqrim(a, b, c);
+        let disq = disqrim(a, b, c);
     document.write('Disqriminator is: ' + disq + '<br>');
         let x1 = ((-b + Math.sqrt(disq))/(2*a));
         let x2 = ((-b - Math.sqrt(disq))/(2*a));
